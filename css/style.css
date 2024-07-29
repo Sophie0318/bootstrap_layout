@@ -1,0 +1,107 @@
+body {
+  font-family: "Lato", Courier, serif;
+  letter-spacing: 1px;
+}
+.tiny-icon {
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  font-size: 10px;
+}
+
+.small-icon {
+  width: 38px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+}
+
+.big-icon {
+  width: 64px;
+  height: 64px;
+  text-align: center;
+  line-height: 64px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poppins", Courier, serif;
+}
+
+h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.lead {
+  font-family: "Caveat", Courier, serif;
+}
+
+.filler {
+  height: 200px;
+}
+
+.tags {
+  font-size: 10px;
+  line-height: 10px;
+}
+
+.coffee-name, .coffee-price{
+  font-size: 20px;
+}
+.coffee-tag, .coffee-content{
+  font-size: 10px;
+}
+
+@media screen and (min-width: 768px)  {
+  h1 {
+    display: inline-block;
+    width: 50%;
+  }
+
+  .hero{
+    border-radius: 10px;
+  }
+
+  .img1 {
+    width: 90%;
+    height: 530px;
+    object-fit: cover;
+  }
+  .coffee-name, .coffee-price{
+    font-size: 10px;
+  }
+  .coffee-tag, .coffee-content{
+    font-size: 10px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    width: 100%;
+  }
+
+  .img1{
+    width: 100%;
+  }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+}
